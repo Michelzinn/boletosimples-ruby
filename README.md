@@ -29,7 +29,7 @@ Saiba mais sobre o [Token de API ](https://developers.kobana.com.br/reference/to
 require 'boletosimples'
 
 BoletoSimples.configure do |c|
-  c.environment = :production # defaut :sandbox
+  c.environment = :production # default :sandbox
   # production - https://app.kobana.com.br/conta/api/tokens
   # sandbox - https://app-sandbox.kobana.com.br/conta/api/tokens
   c.api_token = 'api-token'
